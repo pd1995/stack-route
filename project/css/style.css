@@ -1,0 +1,445 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	
+	background:#FFF;
+	
+	}
+	
+.wrap{
+	width:100%;
+	background:#fff;
+	
+}
+.header{
+	width:1000px;
+	height:50px;
+	background:#fff;
+	margin:0px auto;
+	padding-bottom:20px;
+}
+.header .img
+{float:left;
+
+}
+.header .scerch{
+	border-radius:20px;
+	border:1px;
+	float:right;
+	margin-top:80px;
+	margin-left:90px;
+	margin-right:10px;
+	position:relative;
+	
+}
+.header .scerch input[type="text"]{
+	padding:5px;
+	border-radius:10px;
+	width:180px;
+	}
+	
+	
+#xyz{
+	position:absolute; 
+top:0px; 
+right:0px; 
+width:40px;
+height:30px;
+background: url(../project%20in%20making/icons.png) no-repeat 0px -54px;
+border:0px solid #fff; 
+cursor:pointer; 
+
+	
+	}	
+
+
+
+
+
+.mainmenu {
+clear:both;
+background-color:#000;
+width:100%;
+
+height:40px; }
+
+.navigbar {
+width:1000px;
+margin:0 auto;
+list-style:none;
+//display:inline; }
+
+.navigbar li {
+position:relative;
+float:left;
+height:40px;
+margin-right:30px; }
+
+.navigbar li a {
+color:#FFF;
+font-size:15px; 
+text-transform:capitalize;
+line-height:40px;
+display:block;
+text-decoration:none; }
+
+.navigbar li a:hover {
+text-decoration:none; }
+
+.navigbar li:hover .navigitem {
+display:block; }
+
+.navigbar li.memberlogin {
+padding:5px 0px;
+height:29px;
+margin-right:0; 
+float:right;}
+
+.navigbar li.memberlogin a {
+line-height:29px; }
+
+.navigbar li.memberlogin a:hover {
+text-decoration:none; }
+
+.navigitem { 
+display:none;
+position:absolute; 
+top:30px;
+padding-top:10px; 
+width:250px; 
+background: url(../project%20in%20making/icons.png) no-repeat 10px -410px; 
+z-index:9999; }
+
+.navigitem ul {
+border-top:5px solid #053668; 
+background:#fff;
+overflow:hidden; } 
+
+.navigitem ul li {
+display:inline;
+background-color:#fff;
+border-bottom:1px solid #dce1e7;
+display:block;
+width:100%;
+margin-right:0px;
+padding:0px 10px; }
+
+.navigitem ul li a { 
+color:#4d4f54;
+font-size:13px;
+text-decoration:none;
+line-height:40px;
+}
+
+.navigitem ul li a:hover { 
+color:#2b68a8; }	
+
+.signupBtn {
+float:left;
+margin-right:20px;
+padding:0px 20px;
+color:#7e5503 ;
+background: url(../project%20in%20making/gradients.jpg) repeat-x 0 0;
+font-weight:bold;
+text-transform:uppercase ;
+font-size:14px ; 
+-webkit-border-radius: 2px; 
+-moz-border-radius: 2px; 
+ border-radius: 2px;
+}
+.signupOrangeBtn {
+margin-right:10px;
+background-position:0 -29px; }
+
+.signupYellowBtn {
+margin-right:0; }
+
+.banner{
+	
+		backgroung:#00F;
+		width:100%;
+		height:607px;
+		position:relative;
+		
+	}
+	
+	.banner .slider
+	{
+		height:607px;
+		background-position:center top;
+		display:block;
+		width:100%;
+	}
+	.adds{
+		width:100%;
+		position:absolute;
+		bottom:0;
+	}
+	contact page
+	.contact
+	{background-color:#FFF;
+	width:1000px;
+	height:600px;
+	padding:80px;
+	}
+	.container
+	{
+		margin:30px;
+		background:#FFF;
+		height:600px;
+		width:1000px%;
+		padding-left:100px;
+		background: url(../project%20in%20making/26-flower-logo-design-inspiration.png) no-repeat center ;
+	}
+	.contact-top heading
+	{
+		padding:50px;
+		background-color:#FFF;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		float:right;
+		
+	}
+	.formm
+	{
+		float:left;
+		margin-right:50px;
+	}
+	.adress
+	{
+		
+		text-align:left;
+		margin-right:200px;
+		margin-left:50px;
+		font-size:large;
+		color:#09F;
+		
+		float:right;
+		width:100px;
+		height:100px;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+.bodyCont {
+width:100%;
+background:#eee;
+padding:10px 0px 30px 0px; }
+
+#bodyContHolder {
+width:1000px;
+margin:0 auto;
+}
+
+.section_title {
+padding:15px 0px; 
+background: url(../project%20in%20making/divider.gif) center repeat-x;
+
+//line-height:30px;
+font-weight:bold; 
+font-size:20px; 
+color:#000;
+
+}
+
+.section_title span {
+ background:#eeeeee; 
+ padding-right:10px; }
+ 
+ 
+ 
+.highlightWrapper{
+width:100%;
+height:100%;
+border:1px solid #CCC;
+}
+
+.highlight-item{
+position:relative;
+float:left;
+width:300px;
+height:100%;
+//text-align:center;
+margin-right:30px;
+background-color:#fff;
+box-shadow:1px 1px 2px rgba(0,0,0,0.2);}
+
+.highlight-item h3 {
+text-align:left; 
+padding:10px 10px 0px 10px;	
+}
+.highlight-item h3 a {
+font-size:16px;
+color:#205098;
+text-shadow: 0px 1px 1px #e4ebe9;
+text-decoration:none;}
+
+.highlight-item h3 a:hover {
+text-decoration:underline; }
+
+.highlight-item h4 {
+font-size:13px;
+text-align:left;
+padding-left:10px;
+position:relative;}
+
+.pricetag { 
+position:absolute;
+bottom:15px; 
+right:0px;
+background:#2b68a8;
+color:#fff; 
+font-weight:bold;
+padding:5px 20px;
+-webkit-border-radius:3px 0px 0px 3px;
+-moz-border-radius: 3px 0px 0px 3px; 
+border-radius: 3px 0px 0px 3px;}
+
+.hotdeal-item_cont {
+clear:both;
+width:1000px;
+margin:15px auto 0;
+}
+
+.float-left {
+	float:left;}
+
+.float-right {
+	float:right;}
+
+.contentHolder {
+ width:1000px;
+ margin:0 auto;
+ overflow:hidden; 
+}
+
+
+
+
+.form1{
+	float:left;
+	margin-right:20px;
+}
+
+.right{
+	float:right;
+	margin-left:20px;
+	margin-top:60px;
+	margin-right:70px;
+	font-size:18px;
+}
+
+
+
+
+
+
+.footer {
+clear:both;
+width:90%;
+background-color:#CCC;
+margin:0 auto;
+padding:70px;
+color:#000;}
+
+.footer .footerGroup {
+float:left; 
+padding-right:70px; }
+
+.footer .footerGroup h1 {
+color:#000;
+font-weight:bold;
+font-size:20px;
+padding:0px 0px 20px 0px; }
+
+.footer .footerGroup li a {
+font-size:14px;
+color:#6c6c6c;
+text-decoration:none; }
+
+.footer .footerGroup li {
+padding:3px 0px;
+list-style:none; }
+
+.footer .footerGroup li a:hover { 
+text-decoration:underline; }
+
+.footer .socialmedia li { 
+float:left;
+width:30px;
+height:30px;
+margin-right:5px; }
+
+.footer .socialmedia li a {
+background: url(../project%20in%20making/icons.png) no-repeat;
+display:block;
+width:30px; 
+height:30px; }
+
+.footer li a.facebook { background-position:-2px -161px; }
+.footer li a.twitter { background-position:-2px -191px; }
+.footer li a.linkedin { background-position:-2px -221px; }
+.footer li a.youtube { background-position:-2px -251px; }
+.footer li a.googleplus { background-position:-2px -281px; }
+
+.footer .footerGroup.emailsubscription{
+float:right;
+padding-right:0px; }
+
+.emailsubscription input[type="text"] {
+border:1px solid #e1e1e1; 
+padding:7px; 
+width:200px;
+float:left;
+-webkit-border-radius:2px 0px 0px 2px; 
+-moz-border-radius: 2px 0px 0px 2px;  
+border-radius: 2px 0px 0px 2px; }
+
+.blueBtn {
+background:#003; 
+color:#fff; 
+text-transform:uppercase;
+font-weight:bold;
+padding:7px 20px; 
+border:0px solid #fff;
+-webkit-border-radius:0px 2px 2px 0px;
+-moz-border-radius: 0px 2px 2px 0px; 
+border-radius: 0px 2px 2px 0px;
+ }
+
+.copyright { 
+clear:both; 
+display:block;
+font-size:12px;
+padding:10px 0px; 
+color:#999999; }
