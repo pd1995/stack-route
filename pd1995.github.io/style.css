@@ -136,7 +136,7 @@ width:100%;
 background:#eee;
 padding:10px 0px 30px 0px; }
 
-#bodyContHolder {
+.bodyContHolder {
 width:100%;
 margin:0 auto;
 }
@@ -431,8 +431,8 @@ border-radius: 0px 2px 2px 0px;
   }
   .highlightWrapper{
   	flex-direction: column;
-  	padding-left: 60px;
-
+  	/*padding-left: 60px;
+    border*/
   }
   
   .banner{
@@ -450,10 +450,10 @@ border-radius: 0px 2px 2px 0px;
   }
 
  .float-right{
- 	padding-left: 17%;
+ 	padding-left: 7%;
 
  }
- 
+
   .highlight-item
   {
   	width: 60%;
