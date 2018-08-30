@@ -144,7 +144,7 @@ margin:0 auto;
 .section_title {
 padding:0; 
 padding-left: 10px;
-background: url(project%20in%20making/divider.gif) center repeat-x;
+background: url(pics/divider.gif) center repeat-x;
 text-align:left;
 
 
@@ -340,7 +340,7 @@ height:30px;
 margin-right:5px; }
 
 .footer .socialmedia li a {
-background: url(project%20in%20making/icons.png) no-repeat;
+background: url(pics/icons.png) no-repeat;
 display:block;
 width:30px; 
 height:30px; }

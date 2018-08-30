@@ -59,7 +59,7 @@ header{
 		background-size: cover;
 		display:block;
 		width:100%;
-		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("project in making/tween-fragrance-1145x532.jpg");
+		background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("pics/tween-fragrance-1145x532.jpg");
 	}
 
 	.textblock  {
@@ -123,7 +123,7 @@ color: #666;
 font-size: 14px;
 // vertical-align: middle;
 cursor: pointer;
-background: #f7f7f7 url(project%20in%20making/icons.png) no-repeat right -426px;
+background: #f7f7f7 url(pics/icons.png) no-repeat right -426px;
 border: 1px solid #d6d6d6;
 border-radius: 3px;}
 
@@ -144,7 +144,7 @@ margin:0 auto;
 .section_title {
 padding:0; 
 padding-left: 10px;
-background: url(project%20in%20making/divider.gif) center repeat-x;
+background: url(pics/divider.gif) center repeat-x;
 text-align:left;
 
 
@@ -168,6 +168,7 @@ width: 70%;}
 	display: flex;
 	flex: wrap;
 	flex-direction:row;
+	justify-content: space-around;
 width:99.6%;
 height:100%;
 }
@@ -179,7 +180,8 @@ width:23%;
 height:auto;
 text-align:center;
 margin-top:30px;
-margin-right:30px;
+margin-right:30px
+margin-left: 10px;S
 background-color:#fff;
 box-shadow:1px 1px 2px rgba(0,0,0,0.2);}
 
@@ -238,6 +240,7 @@ margin:15px auto 0;
 
 
 	}
+
 	.fr
 {
 	height: 90%;
@@ -337,7 +340,7 @@ height:30px;
 margin-right:5px; }
 
 .footer .socialmedia li a {
-background: url(project%20in%20making/icons.png) no-repeat;
+background: url(pics/icons.png) no-repeat;
 display:block;
 width:30px; 
 height:30px; }
@@ -377,7 +380,9 @@ border:0px solid #fff;
 border-radius: 0px 2px 2px 0px;
  }
  
-
+.blueBtn:hover{
+	background-color: grey;
+}
 
 
 
@@ -419,27 +424,20 @@ border-radius: 0px 2px 2px 0px;
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 850px) {
   .footer {
 
     flex-direction: column;
   }
   .highlightWrapper{
   	flex-direction: column;
-  	padding-left: 40px;
+  	padding-left: 60px;
 
   }
-  header{
-  	flex-direction: column;
-  	margin-left: 0px;
   
-  	
-  }
-  .search{
-  	display: none;
-  }
   .banner{
   	padding-top: 0;
+  	height: 407px;
   }
   img{
   	height: 110%;
@@ -447,13 +445,15 @@ border-radius: 0px 2px 2px 0px;
 
   
   .banner .slider{
-  	size: 50%;
+  	height: 407px;
 
   }
 
  .float-right{
  	padding-left: 17%;
+
  }
+ 
   .highlight-item
   {
   	width: 60%;
