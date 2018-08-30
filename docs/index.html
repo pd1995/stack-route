@@ -1,6 +1,8 @@
 <!DOCTYPE html >
 <html >
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Fragrensa</title>
 
@@ -11,44 +13,42 @@
 </head>
 
 <body>
-<header>
-
-<img src="project in making/logo (3).png" width="105px"; />
 
 
-
-
-
-<nav class="mainmenu" id="myheader"  >
-
-   	<ul class="navigbar">
-    
-     <li><a href="PROJECT.html">home</a>
-     </li>
-    <li><a href="flavours.html">Flavours</a>
-        
-    </li>
-    
-    <li><a href="about us.html">About Us</a></li>
-     <li><a href="flavours.html">Buy Online</a></li>
-    <li><a href="store finder.html">Store Locator</a></li>
-    <li><a href="Contact us.html">Contact Us</a></li>
-						
-    </ul>
-
-    <div class="search">
-<input type="text" placeholder="Enter to Search"/>
-<input type="button" value=""  id="xyz"/>
+   <!--  navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Fragrensa</a>
+  <a href="#">Brands</a>
+  <a href="#">Contact</a>
+  <a href="#">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+ <i class="fa fa-bars"></i>
+  </a>
 </div>
-  
-    </nav>
-</header>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+
+
+
+
+<!-- banner -->
 <div class="banner">
 <img class="slider" src="project in making/tween-fragrance-1145x532.jpg"/>
 <div class="textblock"><h3>Smell good,Feel good.<h3><p><button class="grow"  style="width: auto; "   >SHOP >></button></p></div>
 </div>
 
-</div>
+
 
 	<div class="bodyCont">
     <div class="bodyContHolder">
@@ -95,8 +95,8 @@
     <div class="bodyContHolder">
          <h2 class="section_title"><span>Latest Deals</span></h2>
          <div class="highlightWrapper">
-        <div class="float-left"><img class="fr" src="project in making/images (6).jpg" alt="" /></div>
-        <div class="float-right"><img class="fr" src="project in making/images (5).jpg" alt="" /></div>
+        <div class="float-left"><img class="fr1 fr" src="project in making/images (6).jpg" alt="" /></div>
+        <div class="float-right"><img class="fr2 fr" src="project in making/images (5).jpg" alt="" /></div>
     </div>
 </div>
 </div>
@@ -141,7 +141,7 @@
     </div>
     
     <div class="footerGroup emailsubscription">
-    <h1>Don's miss our deals and offers</h1>
+    <h1>Dont miss our deals and offers</h1>
     <form action="" method="get">
         <input name="" type="text" placeholder="Enter your email id" />
         <input name ="" type="submit" value="Subscribe" class="blueBtn" />
