@@ -431,8 +431,8 @@ border-radius: 0px 2px 2px 0px;
   }
   .highlightWrapper{
   	flex-direction: column;
-  	/*padding-left: 60px;
-    border*/
+  	padding-left: 60px;
+    
   }
   
   .banner{
